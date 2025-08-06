@@ -18,7 +18,8 @@ This system utilizes a **mmWave radar sensor** to detect subtle human motion or 
 | **Custom PCB**        | Designed using EasyEDA (see below)       |
 
 ## 🔌 Wiring Diagram (Schematic)
-<img src="Images/Circuit.png" alt="Circuit Schematic" width="600"/>
+
+<img src="Images/Circurt.png" alt="Circuit Schematic" width="600"/>
 
 - `HLK-LD2410C` communicates with ESP32 via **UART** (TX/RX).
 - `WS2812B` is controlled by ESP32 via **PWM on GPIO26**.
